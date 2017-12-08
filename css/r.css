@@ -1,0 +1,276 @@
+@media all and (min-width: 1200px) {
+	.wrap{
+		width: 1200px;
+	}
+	.enjoy-css{
+		font: 2.4em 'Satisfy', cursive, Helvetica;
+		margin: 90px 0 0px 366px;}
+	}
+/*******************1100px******************/
+@media all and (max-width: 1100px) {
+	h2{
+		font-size: 1.4em;
+	}
+	p{
+		font-size: 1em;
+	}
+	.phone:before{
+    	display: none;    	
+    }
+
+    .phone{
+    	position: fixed;
+    	right: 0;
+    	top: 0;
+    	background-color: rgba(45,122,228, 0.5);
+    	padding: 10px 15px;
+    	border-width:  0px 0 3px 3px;
+	    border-style: solid;
+	    border-color: rgba(11,8,142, 0.5);
+	    border-radius: 0 0 0 15px;}
+	.new{
+		display: none;
+	}
+	.enjoy-css{
+		font: 2em 'Satisfy', cursive, Helvetica;
+		margin: 90px 0 0px 366px;}
+	}
+/*******************930px******************/
+	@media all and (max-width: 930px){
+	.popular ul li{
+	width: 90%;
+	}
+	li:hover img{
+		transform: none;
+		border-radius: 0
+	}
+
+/*******************820px******************/
+@media all and (max-width: 820px) {
+	.popular ul li {
+    width: 90%;
+    margin: 10px;
+}
+	header{
+		margin-bottom:0;
+	}
+	h2{
+		font-size: 1.3em;
+	}
+	p{
+		font-size: 0.8em;}
+	.enjoy-css{
+		margin: 90px 0 0px 366px;
+	}
+	aside.right.left{
+		float: none;
+	}
+	aside.categories{
+		background: rgba(112, 186, 222, 0.5)
+	}
+	aside.popular {
+		background: rgba(112, 186, 222, 0.5)
+	}
+	.popular {
+		width: 80%;
+	}
+	
+	main{
+		width: auto;
+	}	
+	.page-top .wrap{
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+}
+	.page-top .wrap{
+		flex-direction: column;	
+		align-items: center;	
+	}
+
+	.enjoy-css{
+		font-size: 1.9em;
+		text-align: center;
+	}
+	.menu{
+		align-items: stretch;
+		justify-content: space-between;
+    	margin: 0 auto;}
+   
+	main{
+		background-color: #7c7c81;
+		width: 63%;
+		float: right;
+		margin:0;
+		padding: 0 1%;
+		border-radius: 0;
+	}
+	.categories,.popular{
+	    width: auto;
+	    padding-top: 20px;
+	    border-radius: 0;
+    }
+   
+    .categories ul li{
+		flex-basis: 70%;
+		align-self: center;	
+	}
+	.categories ul {
+    list-style: none;
+    padding-left: 34px;
+}
+	.popular ul li{
+		width: 70%;
+	}
+	.categories ul li a:after{
+		top:0;
+	}
+    .left_block{
+		float: left;
+		width: 35%;
+	}
+    .social{
+    float: right;
+    }
+    .web{
+    margin: 11px 0px 0px 75px;
+    }
+    /*******************430px******************/
+	@media all and (max-width: 430px){
+	
+	body{
+		background-color: #7c7c81
+		}
+	.logo{
+	margin: 0 auto;	
+	}
+	.enjoy-css{
+		position: absolute;
+		margin: 185px 0 43px 135px;
+		z-index: 1
+	}
+	main{
+		/*background-color: none;*/
+		float: none;
+		width: auto;
+		padding: 10px;
+	}
+	 .phone:before{
+    	display: none;    	
+    }
+
+    .phone{
+    	position: fixed;
+    	right: 0;
+    	top: 0;
+    	background-color: rgba(101,105,109, 0.5);
+    	padding: 10px 15px;
+    	border-width:  0px 0 3px 3px;
+	    border-style: solid;
+	    border-color: rgba(11,8,142, 0.5);
+	    border-radius: 0 0 0 15px;}
+
+	.left_block{
+		float: none;
+		width: auto;
+	}
+	.wrap{
+		float: none;
+	}
+	aside{		
+		padding: 10px;
+		margin: 0;			
+	} 
+	}
+	.categories{
+		background-color: #485d6a
+	}
+	.categories ul{
+	 display: -webkit-box;
+	 display: -moz-box;
+	 display: -ms-flexbox;
+	 display: -webkit-flex;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	}
+
+	.categories ul li{
+		padding: 5px 5px 0px 10px;	
+	}
+
+	.menu{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.menu li{
+	flex-basis: 35%;
+    text-align: center;
+    background-color: rgba(97, 142, 179, 0.3);
+    margin: 12px;
+    border-radius: 6px;
+    padding: 5px;
+	}
+
+	.menu li a{
+		display: block;
+	}
+
+	.menu li:hover{
+	background-color: #485d6a;	
+	}
+
+	.menu li:hover a{		
+		color: black;
+		text-decoration:none;
+	}
+	.popular{
+		background-color: #5c6368
+	}
+	.popular ul li{
+		width: 90%;
+		margin: 10px;
+	}
+	.cont{
+		background-color: none;
+	}
+	footer .wrap{
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	  justify-content: space-around;
+	}
+
+	footer .copy {		
+	  	align-self: center;	
+	  	font-size: 2vw;						
+	}	
+
+	.social{
+		align-self: center;	
+	}
+/*******************365px******************/
+@media all and (max-width: 365px){
+	.categories ul li{
+		flex-basis: 70%;
+		align-self: center;	
+	}
+	
+	footer .copy {		
+	  	align-self: center;						
+	}
+}
+	.page_top .sky {
+    display: none;
+}
+	.page_top {
+    height: auto;
+    padding-bottom: 30px;
+}
